@@ -1112,7 +1112,11 @@
 	<!-- Input stage volume -->
 	<!-- media input volume -->
 	<path name="gain-media-mic">
+<<<<<<< HEAD
 		<ctl name="IN1L Digital Volume" value="128" />
+=======
+		<ctl name="IN1R Digital Volume" value="128" />
+>>>>>>> 341cb7f... [DNM][WIP] hero: audio: redo mixer configs
 		<ctl name="LHPF1 Input 1 Volume" value="32" />
 	</path>
 

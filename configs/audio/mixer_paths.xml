@@ -1324,7 +1324,11 @@
 		<ctl name="ISRC1 FSH" value="SYNCCLK rate 1" />
 		<ctl name="DSP2 Rate" value="SYNCCLK rate 2" />
 		<ctl name="DSP3 Rate" value="SYNCCLK rate 2" />
+<<<<<<< HEAD
 		<ctl name="ISRC1DEC1 Input" value="IN1L" />
+=======
+		<ctl name="ISRC1DEC1 Input" value="IN1R" />
+>>>>>>> 341cb7f... [DNM][WIP] hero: audio: redo mixer configs
 		<ctl name="ISRC1DEC2 Input" value="IN3L" />
 		<ctl name="DSP2 Firmware" value="TX_SWB_INTERVIEW" />
 		<ctl name="DSP3 Firmware" value="TX_SWB_INTERVIEW" />
@@ -1540,8 +1544,13 @@
 		<ctl name="DSP3 Rate" value="SYNCCLK rate 3" />
 		<ctl name="ISRC1 FSL" value="SYNCCLK rate 3" />
 		<ctl name="ISRC1 FSH" value="SYNCCLK rate 1" />
+<<<<<<< HEAD
 		<ctl name="ISRC1DEC1 Input" value="IN1L" />
 		<ctl name="ISRC2DEC1 Input" value="IN1L" />
+=======
+		<ctl name="ISRC1DEC1 Input" value="IN1R" />
+		<ctl name="ISRC2DEC1 Input" value="IN1R" />
+>>>>>>> 341cb7f... [DNM][WIP] hero: audio: redo mixer configs
 		<ctl name="ISRC1DEC2 Input" value="IN3L" />
 		<ctl name="ISRC1DEC4 Input" value="ISRC2INT1" />
 		<ctl name="DSP2 Firmware" value="TX_NB" />
@@ -1687,8 +1696,13 @@
 		<ctl name="DSP3 Rate" value="SYNCCLK rate 3" />
 		<ctl name="ISRC1 FSL" value="SYNCCLK rate 3" />
 		<ctl name="ISRC1 FSH" value="SYNCCLK rate 1" />
+<<<<<<< HEAD
 		<ctl name="ISRC1DEC1 Input" value="IN1L" />
 		<ctl name="ISRC2DEC1 Input" value="IN1L" />
+=======
+		<ctl name="ISRC1DEC1 Input" value="IN1R" />
+		<ctl name="ISRC2DEC1 Input" value="IN1R" />
+>>>>>>> 341cb7f... [DNM][WIP] hero: audio: redo mixer configs
 		<ctl name="ISRC1DEC2 Input" value="IN3L" />
 		<ctl name="ISRC1DEC4 Input" value="ISRC2INT1" />
 		<ctl name="DSP2 Firmware" value="TX_NB" />
@@ -1957,7 +1971,11 @@
 
 	<path name="incall_nb-headphone-mic">
 		<ctl name="Main Mic Switch" value="1" />
+<<<<<<< HEAD
 		<ctl name="ASRC1IN1L Input" value="IN1L" />
+=======
+		<ctl name="ASRC1IN1L Input" value="IN1R" />
+>>>>>>> 341cb7f... [DNM][WIP] hero: audio: redo mixer configs
 		<ctl name="AIF2TX1 Input 1" value="ASRC1IN1L" />
 		<ctl name="AIF2TX2 Input 1" value="ASRC1IN1L" />
 		<!-- Call recording route -->
@@ -2011,7 +2029,11 @@
 
 	<path name="incall_nb_handover-headphone-mic">
 		<ctl name="Main Mic Switch" value="1" />
+<<<<<<< HEAD
 		<ctl name="ISRC2DEC1 Input" value="IN1L" />
+=======
+		<ctl name="ISRC2DEC1 Input" value="IN1R" />
+>>>>>>> 341cb7f... [DNM][WIP] hero: audio: redo mixer configs
 		<ctl name="ASRC1IN1L Input" value="ISRC2DEC1" />
 		<ctl name="AIF2TX1 Input 1" value="ASRC1IN1L" />
 		<ctl name="AIF2TX2 Input 1" value="ASRC1IN1L" />
